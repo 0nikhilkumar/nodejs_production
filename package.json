@@ -2,10 +2,10 @@
   "name": "production-setup",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/server.js",
   "scripts": {
-    "start": "node dist/index.js",
-    "dev": "nodemon src/index.ts",
+    "start": "node dist/server.js",
+    "dev": "nodemon src/server.ts",
     "dist": "npx tsc",
     "prepare": "husky"
   },
@@ -14,7 +14,6 @@
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^22.5.4",
-    "husky": "^9.1.5",
     "lint-staged": "^15.2.10",
     "ts-node": "^10.9.2",
     "typescript": "^5.5.4"
